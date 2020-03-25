@@ -17,7 +17,7 @@ Page({
   onShareAppMessage: function () {
     return {
       title: 'NideShop',
-      desc: '耗淘淘商城',
+      desc: '茶未凉',
       path: '/pages/index/index'
     }
   },onPullDownRefresh(){

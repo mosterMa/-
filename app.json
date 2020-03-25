@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/catalog/catalog",
+    "pages/logs/logs",
     "pages/newGoods/newGoods",
     "pages/hotGoods/hotGoods",
     "pages/ucenter/address/address",
@@ -41,7 +42,7 @@
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "耗淘淘",
+    "navigationBarTitleText": "茶未凉",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
   },
@@ -55,25 +56,19 @@
         "pagePath": "pages/index/index",
         "iconPath": "static/images/ic_menu_choice_nor.png",
         "selectedIconPath": "static/images/ic_menu_choice_pressed.png",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/catalog/catalog",
-        "iconPath": "static/images/ic_menu_sort_nor.png",
-        "selectedIconPath": "static/images/ic_menu_sort_pressed.png",
-        "text": "分类"
+        "text": "凭水相逢"
       },
       {
         "pagePath": "pages/topic/topic",
         "iconPath": "static/images/ic_menu_topic_nor.png",
         "selectedIconPath": "static/images/ic_menu_topic_pressed.png",
-        "text": "专题"
+        "text": "萍水相逢"
       },
       {
         "pagePath": "pages/cart/cart",
         "iconPath": "static/images/ic_menu_shoping_nor.png",
         "selectedIconPath": "static/images/ic_menu_shoping_pressed.png",
-        "text": "购物车"
+        "text": "瓶水相逢"
       },
       {
         "pagePath": "pages/ucenter/index/index",
@@ -88,5 +83,13 @@
     "downloadFile": 10000
   },
   "debug": true,
+  "requiredBackgroundModes": [
+    "location"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息用来定位离您最近的店铺,安排发货"
+    }
+  },
   "sitemapLocation": "sitemap.json"
 }
